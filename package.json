@@ -1,0 +1,15 @@
+{
+  "name": "ai-operations-cockpit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline portfolio demonstration of an operations workflow and secure assistant boundary",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.cjs",
+    "start": "node --env-file=.env server.cjs",
+    "test": "node --test tests/*.test.cjs",
+    "check": "node scripts/check-release.cjs"
+  }
+}

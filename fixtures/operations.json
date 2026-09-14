@@ -1,0 +1,350 @@
+[
+  {
+    "id": "DEMO-001",
+    "asset": "Demo vessel A",
+    "client": "Fictional client 1",
+    "site": "Demo North Hub",
+    "date": "2030-06-10",
+    "team": "Demo team A",
+    "status": "planned",
+    "revenue": 1000,
+    "directCost": 500,
+    "checklist": [
+      {
+        "label": "Request verified",
+        "done": false
+      },
+      {
+        "label": "Resources assigned",
+        "done": false
+      },
+      {
+        "label": "Schedule confirmed",
+        "done": false
+      },
+      {
+        "label": "Completion reviewed",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "DEMO-002",
+    "asset": "Demo vessel B",
+    "client": "Fictional client 2",
+    "site": "Demo East Hub",
+    "date": "2030-06-11",
+    "team": "Demo team B",
+    "status": "active",
+    "revenue": 1125,
+    "directCost": 555,
+    "checklist": [
+      {
+        "label": "Request verified",
+        "done": true
+      },
+      {
+        "label": "Resources assigned",
+        "done": false
+      },
+      {
+        "label": "Schedule confirmed",
+        "done": false
+      },
+      {
+        "label": "Completion reviewed",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "DEMO-003",
+    "asset": "Demo vessel C",
+    "client": "Fictional client 3",
+    "site": "Demo West Hub",
+    "date": "2030-06-12",
+    "team": "Unassigned",
+    "status": "attention",
+    "revenue": 1250,
+    "directCost": 610,
+    "checklist": [
+      {
+        "label": "Request verified",
+        "done": true
+      },
+      {
+        "label": "Resources assigned",
+        "done": true
+      },
+      {
+        "label": "Schedule confirmed",
+        "done": false
+      },
+      {
+        "label": "Completion reviewed",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "DEMO-004",
+    "asset": "Demo vessel D",
+    "client": "Fictional client 1",
+    "site": "Demo North Hub",
+    "date": "2030-06-13",
+    "team": "Demo team A",
+    "status": "completed",
+    "revenue": 1375,
+    "directCost": 665,
+    "checklist": [
+      {
+        "label": "Request verified",
+        "done": true
+      },
+      {
+        "label": "Resources assigned",
+        "done": true
+      },
+      {
+        "label": "Schedule confirmed",
+        "done": true
+      },
+      {
+        "label": "Completion reviewed",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": "DEMO-005",
+    "asset": "Demo vessel E",
+    "client": "Fictional client 2",
+    "site": "Demo East Hub",
+    "date": "2030-06-14",
+    "team": "Demo team B",
+    "status": "planned",
+    "revenue": 1500,
+    "directCost": 720,
+    "checklist": [
+      {
+        "label": "Request verified",
+        "done": false
+      },
+      {
+        "label": "Resources assigned",
+        "done": false
+      },
+      {
+        "label": "Schedule confirmed",
+        "done": false
+      },
+      {
+        "label": "Completion reviewed",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "DEMO-006",
+    "asset": "Demo vessel F",
+    "client": "Fictional client 3",
+    "site": "Demo West Hub",
+    "date": "2030-06-10",
+    "team": "Unassigned",
+    "status": "active",
+    "revenue": 1625,
+    "directCost": 775,
+    "checklist": [
+      {
+        "label": "Request verified",
+        "done": true
+      },
+      {
+        "label": "Resources assigned",
+        "done": false
+      },
+      {
+        "label": "Schedule confirmed",
+        "done": false
+      },
+      {
+        "label": "Completion reviewed",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "DEMO-007",
+    "asset": "Demo vessel G",
+    "client": "Fictional client 1",
+    "site": "Demo North Hub",
+    "date": "2030-06-11",
+    "team": "Demo team A",
+    "status": "attention",
+    "revenue": 1750,
+    "directCost": 830,
+    "checklist": [
+      {
+        "label": "Request verified",
+        "done": true
+      },
+      {
+        "label": "Resources assigned",
+        "done": true
+      },
+      {
+        "label": "Schedule confirmed",
+        "done": false
+      },
+      {
+        "label": "Completion reviewed",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "DEMO-008",
+    "asset": "Demo vessel H",
+    "client": "Fictional client 2",
+    "site": "Demo East Hub",
+    "date": "2030-06-12",
+    "team": "Demo team B",
+    "status": "completed",
+    "revenue": 1875,
+    "directCost": 885,
+    "checklist": [
+      {
+        "label": "Request verified",
+        "done": true
+      },
+      {
+        "label": "Resources assigned",
+        "done": true
+      },
+      {
+        "label": "Schedule confirmed",
+        "done": true
+      },
+      {
+        "label": "Completion reviewed",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": "DEMO-009",
+    "asset": "Demo vessel I",
+    "client": "Fictional client 3",
+    "site": "Demo West Hub",
+    "date": "2030-06-13",
+    "team": "Unassigned",
+    "status": "planned",
+    "revenue": 2000,
+    "directCost": 940,
+    "checklist": [
+      {
+        "label": "Request verified",
+        "done": false
+      },
+      {
+        "label": "Resources assigned",
+        "done": false
+      },
+      {
+        "label": "Schedule confirmed",
+        "done": false
+      },
+      {
+        "label": "Completion reviewed",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "DEMO-010",
+    "asset": "Demo vessel J",
+    "client": "Fictional client 1",
+    "site": "Demo North Hub",
+    "date": "2030-06-14",
+    "team": "Demo team A",
+    "status": "active",
+    "revenue": 2125,
+    "directCost": 995,
+    "checklist": [
+      {
+        "label": "Request verified",
+        "done": true
+      },
+      {
+        "label": "Resources assigned",
+        "done": false
+      },
+      {
+        "label": "Schedule confirmed",
+        "done": false
+      },
+      {
+        "label": "Completion reviewed",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "DEMO-011",
+    "asset": "Demo vessel K",
+    "client": "Fictional client 2",
+    "site": "Demo East Hub",
+    "date": "2030-06-10",
+    "team": "Demo team B",
+    "status": "attention",
+    "revenue": 2250,
+    "directCost": 1050,
+    "checklist": [
+      {
+        "label": "Request verified",
+        "done": true
+      },
+      {
+        "label": "Resources assigned",
+        "done": true
+      },
+      {
+        "label": "Schedule confirmed",
+        "done": false
+      },
+      {
+        "label": "Completion reviewed",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": "DEMO-012",
+    "asset": "Demo vessel L",
+    "client": "Fictional client 3",
+    "site": "Demo West Hub",
+    "date": "2030-06-11",
+    "team": "Unassigned",
+    "status": "completed",
+    "revenue": 2375,
+    "directCost": 1105,
+    "checklist": [
+      {
+        "label": "Request verified",
+        "done": true
+      },
+      {
+        "label": "Resources assigned",
+        "done": true
+      },
+      {
+        "label": "Schedule confirmed",
+        "done": true
+      },
+      {
+        "label": "Completion reviewed",
+        "done": true
+      }
+    ]
+  }
+]
